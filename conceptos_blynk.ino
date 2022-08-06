@@ -12,9 +12,9 @@
 
 // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
 // See the Device Info tab, or Template settings
-#define BLYNK_TEMPLATE_ID "TMPLrnEqXdIF"
-#define BLYNK_DEVICE_NAME "TEST3000"
-#define BLYNK_AUTH_TOKEN "qyPbAlD_6Sgd7YQrukif0mvAuQl33Qd8"
+#define BLYNK_TEMPLATE_ID           "TMPLxxxxxx"
+#define BLYNK_DEVICE_NAME           "Device"
+#define BLYNK_AUTH_TOKEN            "YourAuthToken"
 
 
 // Comment this out to disable prints and save space
@@ -28,9 +28,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "ssalome";
-char pass[] = "P0mp1l14";
-
+char ssid[] = "YourNetworkName";
+char pass[] = "YourPassword";
 BlynkTimer timer;
 
 // This function sends Arduino's up time every second to Virtual Pin (5).
